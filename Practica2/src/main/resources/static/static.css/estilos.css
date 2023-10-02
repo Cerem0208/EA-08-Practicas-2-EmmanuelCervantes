@@ -1,0 +1,48 @@
+#grid{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+            "header header"
+            "aside aside"
+            "section section"
+            "footer footer";
+    margin: auto;
+}
+
+
+
+header{
+    grid-area: header;
+    background-color: #17DB82;
+    margin-left: 0px;
+        
+}
+
+section{
+    grid-area: section;
+    background-color: aquamarine;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+aside{
+    grid-area: aside;
+    background-color: aquamarine;
+    margin-top: 0px;
+}
+
+footer{
+    grid-area: footer;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+section h2{
+    background-color: #17DB82; 
+}
+
+aside h2{
+    background-color: #17DB82;
+}
+
